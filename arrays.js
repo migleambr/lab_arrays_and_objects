@@ -27,18 +27,15 @@ stations.shift("Dundee");
  */
 
 stationCount = stations.length;
-console.log("There are " + stationCount + " stations.");
+// console.log("There are " + stationCount + " stations.");
 
 /**
  * Q4.
  * Which station is the third stop?
  */
 
-thirdStation = null;
-
-// console.log("The third station is " + thirdStation);
-
-
+thirdStation = stations[2];
+console.log("The third station is " + thirdStation);
 
 /**
  * Q5.
