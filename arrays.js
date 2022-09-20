@@ -59,17 +59,15 @@ stations.splice(4, 1);
  */
 
 stations.splice(3, 0, "Darlington");
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q8.
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
-
-// console.log(stoppingAtDurham);
-
+stoppingAtDurham = stations.includes("Durham");
+console.log(stoppingAtDurham);
 
 /**
  * Q9.
