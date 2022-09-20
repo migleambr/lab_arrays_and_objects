@@ -65,10 +65,20 @@ wales.capital = "Cardiff";
 let northernIreland = unitedKingdom[3];
 northernIrelandKeys = Object.keys(northernIreland);
 
-console.log(northernIrelandKeys);
+// console.log(northernIrelandKeys);
 
 
 
 /**
  * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
  */
+
+let scotland = unitedKingdom[0];
+
+if (scotland.population > england.population && scotland.population > wales.population && scotland.population > northernIreland.population) {
+    console.log("Scotland has the biggest population in the UK.");
+} else if (scotland.population < england.population && scotland.population < wales.population && scotland.population < northernIreland.population) {
+    console.log("Scotland has the smallest population in the UK.");
+} else {
+    console.log("In comparison to other countries in the UK, Scotland's population is somewhere in the middle.");
+}
