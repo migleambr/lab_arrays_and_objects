@@ -38,7 +38,7 @@ dogName = dog.name;
  */
 
 catBreed = cat.breed;
-console.log("The cat is a " + catBreed);
+// console.log("The cat is a " + catBreed);
 
 
 
@@ -46,7 +46,8 @@ console.log("The cat is a " + catBreed);
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 
-// console.log(tortoise)
+tortoise.age = tortoise.age + 1;
+console.log(tortoise)
 
 
 
