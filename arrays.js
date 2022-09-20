@@ -43,16 +43,15 @@ thirdStation = stations[2];
  */
 
 stations[1] = "Berwick-upon-Tweed";
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q6.
  * How did Leeds get on there? Better remove it.
  */
 
-// console.log(stations);
-
-
+stations.splice(4, 1);
+console.log(stations);
 
 /**
  * Q7.
