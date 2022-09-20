@@ -42,8 +42,9 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-unitedKingdom[1].touristAttractions = ["Big Ben", "Stonehenge"];
-console.log(unitedKingdom[1]);
+let england = unitedKingdom[1];
+england.touristAttractions = ["Big Ben", "Stonehenge"];
+console.log(england);
 
 
 
