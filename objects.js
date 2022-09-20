@@ -80,7 +80,7 @@ parrot = {
  */
 
 tortoise.favourite_food = "dandelion";
-console.log(tortoise);
+// console.log(tortoise);
 
 
 
@@ -88,9 +88,8 @@ console.log(tortoise);
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = null;
-
-// console.log("The total age of the pets is " + totalPetAge);
+totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
+console.log("The total age of the pets is " + totalPetAge);
 
 
 
