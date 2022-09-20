@@ -44,7 +44,7 @@ unitedKingdom = [
 
 let england = unitedKingdom[1];
 england.touristAttractions = ["Big Ben", "Stonehenge"];
-console.log(england);
+// console.log(england);
 
 
 
@@ -52,9 +52,9 @@ console.log(england);
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
-
-// console.log(wales);
+let wales = unitedKingdom[2];
+wales.capital = "Cardiff";
+console.log(wales);
 
 
 
