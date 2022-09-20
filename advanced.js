@@ -54,7 +54,7 @@ england.touristAttractions = ["Big Ben", "Stonehenge"];
 
 let wales = unitedKingdom[2];
 wales.capital = "Cardiff";
-console.log(wales);
+// console.log(wales);
 
 
 
@@ -62,9 +62,10 @@ console.log(wales);
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
+let northernIreland = unitedKingdom[3];
+northernIrelandKeys = Object.keys(northernIreland);
 
-// console.log(northernIrelandKeys);
+console.log(northernIrelandKeys);
 
 
 
